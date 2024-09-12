@@ -37,7 +37,7 @@ class Config(object):
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
     LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech")
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
-    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", '"""type = drive\nscope = drive\ntoken = {"access_token":"ya29.fill---your---data----7gGcxnYr71RBuoMVlzhAM_-fil your davxrOpIuvZ-S5lo4YzhYqP:"Bearer","refresh_token":"1//0gnh0j3fUzRITCgYIARAAGBASNwF-L9IrbbYT1QkJg6UCEo3AksHDp6DqUBrhcTBIwUWtlgmbnBQPZKvSAEOTl098VTt8zEojRnY","expiry":"2fill--your--data-07-13T10:4fillyourdata758376Z"}"""')
+    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", """"type = drive\nscope = drive\ntoken = {"access_token":"ya29.fill---your---data----7gGcxnYr71RBuoMVlzhAM_-fil your davxrOpIuvZ-S5lo4YzhYqP:"Bearer","refresh_token":"1//0gnh0j3fUzRITCgYIARAAGBASNwF-L9IrbbYT1QkJg6UCEo3AksHDp6DqUBrhcTBIwUWtlgmbnBQPZKvSAEOTl098VTt8zEojRnY","expiry":"2fill--your--data-07-13T10:4fillyourdata758376Z"}"""")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "TorrentLeech-Gdrive")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech")
     INDEX_LINK = os.environ.get("INDEX_LINK", "")
