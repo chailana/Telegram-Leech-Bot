@@ -328,7 +328,7 @@ async def upload_single_file(message, local_file_name, caption_str, from_user, e
                             media=local_file_name,
                             thumb=thumb,
                             caption=caption_str,
-                            parse_mode="html",
+                            parse_mode="MarkdownV2",
                             width=width,
                             height=height,
                             duration=duration,
