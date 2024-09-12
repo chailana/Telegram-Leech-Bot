@@ -328,7 +328,7 @@ async def upload_single_file(message, local_file_name, caption_str, from_user, e
                             media=local_file_name,
                             thumb=thumb,
                             caption=caption_str,
-                            parse_mode="MarkdownV2",
+                            parse_mode="HTML",
                             width=width,
                             height=height,
                             duration=duration,
@@ -386,7 +386,7 @@ async def upload_single_file(message, local_file_name, caption_str, from_user, e
                             media=local_file_name,
                             thumb=thumb,
                             caption=caption_str,
-                            parse_mode="html",
+                            parse_mode="HTML",
                             duration=duration,
                             performer=artist,
                             title=title
@@ -434,7 +434,7 @@ async def upload_single_file(message, local_file_name, caption_str, from_user, e
                             media=local_file_name,
                             thumb=thumb,
                             caption=caption_str,
-                            parse_mode="html"
+                            parse_mode="HTML"
                         )
                         # quote=True,
                     )
